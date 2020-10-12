@@ -1,0 +1,5 @@
+print("program to swap two numbers")
+n1=int(input("enter first number"))
+n2=int(input("enter the second number"))
+n1,n2=n2,n1
+print(n1,n2)
