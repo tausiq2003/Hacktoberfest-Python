@@ -8,3 +8,12 @@ num2 = temp
 
 print("Value of number1 after swapping: ", num1)
 print("Value of number2 after swapping: ", num2)
+#another approach for swapping number with add,substarction
+num1=num1+num2
+num2=num1-num2
+num1=num1-num2
+#another approach with operator and temp variable
+num1,num2=num2,num1
+
+print("Value of number1 after swapping: ", num1)
+print("Value of number2 after swapping: ", num2)
