@@ -1,0 +1,10 @@
+import mysql.connector
+con = mysql.connector.connect(user='root',password = 'tigermanudon!1234', host='127.0.0.1')
+mycur = con.cursor()
+#mycur.execute("create database ")
+mycur.execute("use dav")
+mycur.execute("create table t2(id int primary key, name varchar(30))")
+#mycur.execute("insert into t2 values(2,'muskan')")
+#mycur.execute("delete from t2 where name ='muskan'")
+#con.commit()
+#print('run')
